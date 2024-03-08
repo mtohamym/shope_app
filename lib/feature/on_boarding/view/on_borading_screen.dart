@@ -17,6 +17,11 @@ class OnboardScreen extends StatelessWidget {
         title: "Choose and customize ",
         body:
             "Customize your own drink exhdsfhnivhkwuirgbractly how you like it by adding any topping you like!!!"),
+    PageViewModel(
+        image: SvgPicture.asset(AppAssets.logoVr),
+        title: "Choose and customize ",
+        body:
+            "Customize your own drink exhdsfhnivhkwuirgbractly how you like it by adding any topping you like!!!"),
   ];
 
   final _introKey = GlobalKey<IntroductionScreenState>();
