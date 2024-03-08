@@ -3,6 +3,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:shope/core/constant/app_assets.dart';
 
+import '../../home/view/home.dart';
+
 class OnboardScreen extends StatelessWidget {
   OnboardScreen({Key? key}) : super(key: key);
 
@@ -44,7 +46,7 @@ class OnboardScreen extends StatelessWidget {
         ),
         done: const Text("Done"),
         onDone: () {
-          // On button pressed
+          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomeScreen(),));
         },
       ),
     );
