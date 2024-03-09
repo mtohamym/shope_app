@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:shope/core/constant/app_assets.dart';
+import 'package:shope/feature/home/view/home_screen.dart';
 
-import '../../home/view/home.dart';
 
 class OnboardScreen extends StatelessWidget {
   OnboardScreen({Key? key}) : super(key: key);
